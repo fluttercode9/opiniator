@@ -1,0 +1,200 @@
+
+body{
+font-family: 'Courier New', monospace;
+background-color: black;
+  font-size: 1.5vw;
+  background-attachment: fixed;
+  background-size: cover;
+	background-image:url('haha.png');
+	color:white;
+    text-align:center;
+
+}
+h1{color:white}
+
+
+.container{
+background-color: black;
+margin:0 auto;
+height:calc(20%);
+width:50%;
+transition:height 0.21s;
+padding: 1% 2% 0 2%;
+  border-radius: 20px;
+  animation: bounce 4s infinite;
+border: 3px solid white;
+
+
+
+}
+.active{height:calc(65%);
+background-color:black;
+	color:white !important;
+  background-attachment: fixed;
+  background-size: cover;
+  border-top: 15px solid #cccc00;
+
+}
+
+
+
+.hide{ display:none !important;
+}
+
+.buttons{display:flex; height:70%;}
+.buttons div{margin-top:10px; width:50%;  height:calc(100%) !important;   border-radius: 20px;
+ }
+
+.buttons:hover{cursor:pointer;}
+.opinion-text{height:10%;}
+
+
+.mychart { height:75% !important;padding-bottom:10px;}
+
+
+.opinion-text { padding-bottom: 5%;padding-top: 5px; font-weight:bolder; text-align:center;}
+
+
+.unlike {background-color: darkred;}
+.like {background-color: green;}
+
+.unlike:hover {background-color: red;}
+.like:hover {background-color: lightgreen;}
+
+.date{font-size:1vw; padding:none !important;}
+
+
+
+
+
+
+
+
+
+.myform {
+border: 3px solid #cccc00;
+
+  background: black;
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  border-radius: 20px;
+	height:40%;
+	width:40%;
+  margin-left: auto;
+  margin-right: auto;
+  animation: bounce 1.5s infinite;
+
+}
+
+
+
+.title{
+  display: block;
+	font-size:1vw;
+  margin: 10px auto 5px;
+}
+
+.pageTitle{
+  font-size: 1.5vw;
+  font-weight: bold;
+	color:#cccc00;
+}
+.secondaryTitle{
+  color: grey;
+}
+
+.name {
+  background-color: #ebebeb;
+  color: white;
+}
+.name:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.message {
+  background-color: lightblue;
+  overflow: hidden;
+  height: 33%;
+  border-radius: 20px;
+
+	width:90%;
+	font-size:1.7vw;
+}
+
+.message:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 45%;
+  width: 98%;
+  transition: ease 0.5s;
+}
+
+.formEntry {
+
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+
+.submit-button {
+  width: 30%;
+  color: grey;
+  background-color: 	#cccc00;
+  font-size: 1vw;
+min-height:50px;
+  border-radius: 5%;
+
+}
+
+.submit-button:hover {
+  box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+  transform: translateY(-3px);
+  width: 40%;
+  border-top: 5px solid #0e3750;
+  border-radius: 5%;
+}
+
+@keyframes bounce {
+  0% {
+    tranform: translate(0, 4px);
+  }
+  50% {
+    transform: translate(0, 8px);
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+	background-color:#cccc00 ;
+}
+
+.pagination a.active {
+  background-color: green;
+  color: black;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: blue;
+  border-radius: 5px;
+}
+
