@@ -1,2 +1,4 @@
 # opiniator
 PHP/HTML/CSS/JS
+Projekt w którym użytkownik może dodać opinie, a inni głosują czy się zgadzają czy nie :>>>>>
+Pozdrawiam serdecznie.
